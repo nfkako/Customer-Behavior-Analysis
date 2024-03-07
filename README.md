@@ -8,7 +8,7 @@ Hello and welcome!
 
 If yes, then look no further.
 
-This project aims to answer the above critical business questions using Recency, Frequency, Monetary (RFM) analysis and Machine Learning techniques such as KNN clustering for customer segmentation, and by applying Market Basket Analysis (MBA) technique in order to find the items that customers purchase together. This helps the retail business store or website design their layout in a manner that meets customer satisfaction and boosts sales at the same time. 
+This project aims to answer the above critical business questions using Recency, Frequency, Monetary (RFM) analysis and Machine Learning techniques such as K-means clustering for customer segmentation, and by applying Market Basket Analysis (MBA) technique in order to find the items that customers purchase together. This helps the retail business store or website design their layout in a manner that meets customer satisfaction and boosts sales at the same time. 
 
 ### Data Description
 This Online Retail II dataset contains all the transactions occurring for a UK-based and
