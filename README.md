@@ -26,3 +26,5 @@ The dataset consists of over 500k rows, and below are the columns and their desc
 `Data`: This folder contains the link to the dataset.
 
 `Notebooks`: This folder contains all python code notebook used in project.
+
+`Presentation files`: This folder condtains all the presentation files for this project.
