@@ -65,8 +65,11 @@ Refer to Sprint2 notebook in `Notebooks` folder for more details.
 
 ### Final Stage
 
-This stage of the project will integrate Market Basket Analysis within each customer group to analyze product associations and purchasing patterns specific to each ot them.
+This stage of the project will integrate Market Basket Analysis within each customer group to analyze product associations and purchasing patterns specific to each ot them. Unitil then, stay tuned!
 
+
+
+### Attached Folders
 
 `Data`: This folder contains the link to the dataset as well as a cleaned copy of it.
 
