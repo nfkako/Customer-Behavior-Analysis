@@ -61,7 +61,9 @@ This sprint of the project covers:
 
  In the EDA the main focus will focus on data cleaning where I will be dealing with the issues mentioned in sprint1, then I will move forward with feature engineering to create a dataframe and calculate the RFM metrics (Recency, Frequency and Monetary values) for each customer. The final section of this sprint would be clustering where I will basically try different algorithms with a range of K values and evaluate their performance using sillouette score.
 
-### final stage
+Refer to Sprint2 notebook in `Notebooks` folder for more details.
+
+### Final Stage
 
 This stage of the project will integrate Market Basket Analysis within each customer group to analyze product associations and purchasing patterns specific to each ot them.
 
