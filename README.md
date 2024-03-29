@@ -14,14 +14,14 @@ This project aims to answer the above critical business questions using Recency,
 This Online Retail II dataset contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2009 and 09/12/2011.The company mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.
 
 The dataset consists of over 1m rows, and below are the columns and their descriptions:
-- **InvoiceNo**: Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation.
-- **StockCode**: Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product.
+- **Invoice**: Invoice number. A 6-digit number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation.
+- **StockCode**:Product (item) name.
 - **Description**: Product (item) name. Nominal.
-- **Quantity**: The quantities of each product (item) per transaction. Numeric.
-- **InvoiceDate**: Invoice date and time. Numeric. The day and time when a transaction was generated.
-- **UnitPrice**: Unit price. Numeric. Product price per unit in sterling (£).
-- **CustomerID**: Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
-- **Country**: Country name. Nominal. The name of the country where a customer resides.
+- **Quantity**: The quantities of each product (item) per transaction.
+- **InvoiceDate**: Invoice date and time. The day and time when a transaction was generated.
+- **Price**: Unit price. Product price per unit in Great Britain Pounds GBP.
+- **Customer ID**: Customer number. A 5-digit number uniquely assigned to each customer.
+- **Country**: Country name. The name of the country where a customer resides.
 
 #### Sprint1
 In this stage I have done the first pass of EDA in order to explore the dataset and identify data quality issues, feature engineering opportunities and any other notable observations regarding data preprocessing.
@@ -44,20 +44,30 @@ In this stage I have done the first pass of EDA in order to explore the dataset 
   - Amazon Fees
   - Bad debt Adjustment
 
-#### Feature engineering to calculate:
+##### Feature engineering to calculate:
 - Recency 
 - Frequency		
 - Monetary
 
 Details can be found in `Notebooks` folder in Sprint1 file.
 
-### Next Stept
+#### Sprint2
 
-For the next stage of the project I will be conducting data cleaning, feature engineering and data preprocesing in order to deal with the issues identified in Sprint1, then I will use K-means clustering to devide the customers into different groups based on their purchasing behaviours...
+This sprint of the project covers:
+
+- Exploratory Data Analysis EDA
+- Recency, Frequency, Monetary RFM Analysis
+- Clustering
+
+ In the EDA the main focus will focus on data cleaning where I will be dealing with the issues mentioned in sprint1, then I will move forward with feature engineering to create a dataframe and calculate the RFM metrics (Recency, Frequency and Monetary values) for each customer. The final section of this sprint would be clustering where I will basically try different algorithms with a range of K values and evaluate their performance using sillouette score.
+
+### final stage
+
+This stage of the project will integrate Market Basket Analysis within each customer group to analyze product associations and purchasing patterns specific to each ot them.
 
 
-`Data`: This folder contains the link to the dataset.
+`Data`: This folder contains the link to the dataset as well as a cleaned copy of it.
 
-`Notebooks`: This folder contains all python code notebook used in project.
+`Notebooks`: This folder contains all python code notebooks used in project.
 
 `Presentation files`: This folder condtains all the presentation files for this project.
