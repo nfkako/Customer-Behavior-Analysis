@@ -59,7 +59,7 @@ This sprint of the project covers:
 - Recency, Frequency, Monetary RFM Analysis
 - Clustering
 
- In the EDA the main focus will be on data cleaning where I will be dealing with the data quality issues mentioned in sprint1, then I will move forward with feature engineering to create a dataframe and calculate the RFM metrics (Recency, Frequency and Monetary values) for each customer. The final section of this sprint would be clustering where I will basically try different algorithms with a range of K values and evaluate their performance using sillouette score.
+ In the EDA the main focus will be on data cleaning where I will be dealing with the data quality issues mentioned in sprint1, then I will move forward with feature engineering to create a dataframe and calculate the RFM metrics (Recency, Frequency and Monetary values) for each customer. The final section of this sprint would be clustering where I will basically try different algorithms with a range of K values and compare their performance using sillouette score and visualizations in order do find the best segmentation algorithm.
 
 Refer to Sprint2 notebook in `Notebooks` folder for more details.
 
