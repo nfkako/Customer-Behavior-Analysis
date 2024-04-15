@@ -63,10 +63,18 @@ This sprint of the project covers:
 
 Refer to Sprint2 notebook in `Notebooks` folder for more details.
 
-### Final Stage
+### Sprint3
 
-This stage of the project will integrate Market Basket Analysis within each customer group to analyze product associations and purchasing patterns specific to each ot them. Unitil then, stay tuned!
-
+Now that we segmented the customers into 4 groups, in this sprint of the project we will cover:
+1. Exploratory Data Analysis EDA
+    - We will briefly explore the groups in terms of RFM metrics and their contribution to sales,
+    - then we will conduct feature engineering to prepare the datasets for Market Basket Analysis.
+2. Market Basket Analysis
+For each group, we are going to identify the following:
+    - The most frequent items.
+    - The items that are frequently purchased together.
+    
+    This is to understand each groups' purchasing patterns in order to help enhance marketing strategies and boost sales.
 
 
 ### Attached Folders
