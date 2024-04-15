@@ -71,7 +71,7 @@ This stage of the project will integrate Market Basket Analysis within each cust
 
 ### Attached Folders
 
-`Data`: This folder contains the link to the dataset as well as a cleaned copy of it.
+`Data`: This folder contains the link to the dataset and a cleaned copy of it, as well as a copy of RFM_labeled dataset.
 
 `Notebooks`: This folder contains all python code notebooks used in project.
 
